@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.19.0",
+    "moment": "^2.22.2",
+    "random-ua": "^0.0.6",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.41.2",
+    "sqlite3": "^4.0.4"
+  },
+  "bin": {
+    "periscope-tools": "./bin/periscope-analytics.js"
+  },
+  "name": "periscope-analytics",
+  "version": "0.1.0",
+  "description": "Dumps broadcasts, hearts, comments and users information to an SQLite database.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcingolani/periscope-analytics.git"
+  },
+  "author": "Federico Cingolani <mail@fcingolani.com.ar>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcingolani/periscope-analytics/issues"
+  },
+  "homepage": "https://github.com/fcingolani/periscope-analytics#readme"
+}
